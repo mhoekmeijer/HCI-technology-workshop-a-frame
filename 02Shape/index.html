@@ -10,12 +10,19 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        width="3"
-        height="2"
-        depth="1"
-        color="#BBAA33" 
+        width="1"
+        height="0.5"
+        depth="2"
+        color="#800000"
+        position="-1 5 1"
+        rotation="1 1 3"
+        scale="2 4 6"
         shadow>
       </a-box>
+      <a-octahedron color="#FF926B" radius="2" position="8 4 1"></a-octahedron>
+      <a-sphere color="yellow" radius="2" width="2" position="4 4 1"></a-sphere>
+      <a-cylinder color="cyan" segments-radial="6" rotation="2 1 0" position="2 4 1"></a-cylinder>
+      <a-plane color="#CCC" height="10" width="10" position="1 2 1" rotation="90 0 0"></a-plane>
     </a-scene>
   </body>
 </html>
